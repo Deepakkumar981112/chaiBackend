@@ -4,7 +4,7 @@ import 'dotenv/config'
 const app = express();
 
 
-app.get("/", (req, res) => {
+app.get("/hero", (req, res) => {
     res.send("Hello, World!");  
 })
 // const port = 4000
